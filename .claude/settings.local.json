@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls *)",
+      "Bash(python3 *)",
+      "Bash(grep -r \"0001\\\\|0002\\\\|0003\" /home/dev-b650/skripsi/dataset_skripsi/*.py)",
+      "Bash(grep -r \"nii.gz\\\\|nifti\\\\|DICOM\\\\|dcm\" /home/dev-b650/skripsi/dataset_skripsi/*.py)",
+      "Bash(grep -r \"0001\\\\|mapping\\\\|convert\\\\|data/\\\\|nifti\\\\|NIfTI\" /home/dev-b650/skripsi/dataset_skripsi/*.py)",
+      "Bash(grep *)",
+      "Bash(find *)",
+      "Bash(git -C /home/dev-b650/skripsi/dataset_skripsi log --oneline --all)",
+      "Bash(git -C /home/dev-b650/skripsi/dataset_skripsi log --format=\"%H %s\")",
+      "Bash(pip install *)"
+    ]
+  }
+}
